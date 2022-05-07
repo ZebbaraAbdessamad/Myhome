@@ -1,0 +1,146 @@
+body {
+    background: url(blane.png);
+}
+
+
+/*navbar*/
+
+.nav-link {
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-style: initial;
+    border: 20px;
+    font-display: inherit;
+}
+
+
+/*slider*/
+
+.carousel-item {
+    width: 100%;
+    height: 50%;
+    color: rgb(241, 241, 241);
+}
+
+
+/*card inner image*/
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+.items {
+    text-align: center;
+}
+
+
+/*Footer image*/
+
+.footer {
+    background: url(pp.jpg);
+    bottom: 0px;
+}
+
+
+/*Liste*/
+
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+}
+
+
+/*Liste*/
+
+.nav-pills a {
+    font-weight: bold;
+}
+
+.nav-pills a:hover {
+    outline: none;
+    background: #999;
+    color: rgb(68, 18, 18);
+    border: 10px;
+    font-weight: bold;
+}
+
+.navbar-right a:hover {
+    background: #999
+}
+
+
+/*Login*/
+
+
+/*Next  Suivant*/
+
+.pagination_button {
+    width: 80px;
+    height: 55px;
+    color: rgb(241, 247, 247);
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: rgb(4, 170, 73);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font: italic;
+}
+
+.pagination_button:hover {
+    color: rgb(241, 247, 247);
+    background-color: cadetblue;
+}
+
+
+/*Valid login */
+
+
+/*dropdown-menu */
+
+.dropdown-menu {
+    width: 180px;
+    height: 240px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #555;
+}
+
+
+/* close message    */
+
+.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}

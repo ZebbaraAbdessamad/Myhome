@@ -1,0 +1,87 @@
+body {
+    background: url('blane.png');
+}
+
+
+/* item home   */
+
+.item1 {
+    background: linear-gradient(45deg, #cc327a, rgb(18, 204, 173));
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    color: white;
+    font: lighter;
+    font-size: 30px;
+    padding-top: 30px;
+    border: solid 2px#999;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.item2 {
+    background: #ee3110;
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    color: white;
+    font: lighter;
+    font-size: 30px;
+    padding-top: 30px;
+    border: solid 2px #999;
+    border-radius: 10px;
+    margin: 20px;
+    display: block;
+}
+
+.item3 {
+    background: url('bg-login.jpg');
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    color: white;
+    font: lighter;
+    font-size: 30px;
+    padding-top: 30px;
+    border: solid 2px #999;
+    border-radius: 10px;
+    margin: 20px;
+    display: block;
+}
+
+.item4 {
+    background: linear-gradient(45deg, #ec710d, rgb(242, 245, 69));
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    color: white;
+    font: lighter;
+    font-size: 30px;
+    padding-top: 30px;
+    border: solid 2px #999;
+    border-radius: 10px;
+    margin: 20px;
+    display: block;
+}
+
+
+/* link Home  */
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+
+/* close message    */
+
+.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
